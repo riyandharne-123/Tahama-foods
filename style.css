@@ -1,0 +1,51 @@
+body{
+   
+    background-image: url("OIP.jpg");
+ background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:burlywood;
+    box-shadow: 0 8px 6px -6px #333;
+    color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  
+  li a:hover:not(.active) {
+    background-color: brown;
+    color: white;
+  }
+  
+  .active {
+    background-color: brown;
+    color: white;
+  }
+  .about-us{
+      margin: 0 auto;
+    
+      padding-top: 20px;
+      color: white;
+      font-size: 30px;
+   font-family: cursive;
+      text-align: center;
+      
+  }
+  form{
+      padding-right: 50px;
+      padding-left: 50px;
+  }
